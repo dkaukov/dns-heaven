@@ -23,6 +23,10 @@ This script downloads the latest version and installs a LaunchAgent making sure 
 
 If you want to do this manually, just download the latest release or compile dns-heaven yourself, and make sure it's always running.
 
+# Uninstall
+
+   sudo sh -c "curl -s -L https://raw.githubusercontent.com/dkaukov/dns-heaven/master/uninstall.sh | bash" 
+
 # How it works
 
 dns-heaven exposes a DNS server that acts as a proxy mimicking native macOS behaviour. This is accomplished by periodically reading the output of `scutil --dns` and updating upstream rules and nameservers.
