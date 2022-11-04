@@ -42,7 +42,7 @@ This is one of the best options but it has some drawbacks. In order to use dnsma
 
 # Relsease
 
-`goreleaser release`
+    goreleaser release
 
 # License
 
