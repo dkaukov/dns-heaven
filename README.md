@@ -40,6 +40,10 @@ It also keeps /etc/resolv.conf pointing to 127.0.0.1 as the system will rewrite 
 ## dnsmasq
 This is one of the best options but it has some drawbacks. In order to use dnsmasq you need to manually specify it on network settings and manually configure the upstream forwarders. This is bad because sometimes you want to use the servers announced on DHCP instead of something static like 8.8.8.8 and 8.8.4.4.
 
+# Relsease
+
+`goreleaser release`
+
 # License
 
 [MIT](LICENSE).
