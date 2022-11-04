@@ -17,7 +17,7 @@ In order to support programs that uses resolv.conf, macOS writes a file with onl
 
 Just run:
 
-    `sudo sh -c "curl -L https://raw.githubusercontent.com/dkaukov/dns-heaven/master/install.sh | bash"`
+    sudo sh -c "curl -L https://raw.githubusercontent.com/dkaukov/dns-heaven/master/install.sh | bash"
 
 This script downloads the latest version and installs a LaunchAgent making sure that dns-heaven is always running.
 
