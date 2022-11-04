@@ -25,7 +25,9 @@ If you want to do this manually, just download the latest release or compile dns
 
 # Uninstall
 
-   sudo sh -c "curl -s -L https://raw.githubusercontent.com/dkaukov/dns-heaven/master/uninstall.sh | bash" 
+Just run:
+
+    sudo sh -c "curl -s -L https://raw.githubusercontent.com/dkaukov/dns-heaven/master/uninstall.sh | bash" 
 
 # How it works
 
